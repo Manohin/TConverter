@@ -3,7 +3,6 @@
 //  TConverter
 //
 //  Created by Alexey Manokhin on 25.08.2022.
-//
 
 import UIKit
 
@@ -28,8 +27,5 @@ class ViewController: UIViewController {
         let tempFahrenheit = String(format: "%.01f", Double(tempCelsius) * 9 / 5 + 32)
         fahrenheitLabel.text = "\(tempFahrenheit) ºF"
     }
-    
-    
-
 }
 
